@@ -1,0 +1,81 @@
+.testo{
+        font-family:verdana;
+        font-size:0.3cm;
+      }
+             
+.hidden{
+         display:none;
+       }
+.visualizza{
+            display:block;
+           } 
+                 
+.bordoRosso{
+            border:1px darkred solid;
+           }
+                
+                 
+has-error .form-control:focus{border-color:#843534;-webkit-box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #ce8483;box-shadow:inset 0 1px 1px rgba(0,0,0,0.075),0 0 6px #ce8483}
+
+has-error .form-control {
+  border-color: #a94442;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.has-error .form-control:focus {
+  border-color: #843534; 
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
+}
+                                      
+.errore{
+          height:30px; 
+          color:#F00; 
+          text-align:center; 
+          font-size:0.5cm;
+          padding:7px; 
+          font-style:sanserif;
+        }
+
+       .hint {
+
+   	
+
+    position: absolute;
+
+    right: 250px;
+
+    width: 200px;
+
+    margin-top: -4px;
+
+    border: 1px solid #c93;
+
+    padding: 10px 12px;
+
+    /* to fix IE6, I can't just declare a background-color,
+
+    I must do a bg image, too!  So I'm duplicating the pointer.gif
+
+    image, and positioning it so that it doesn't show up
+
+    within the box */
+
+    background: #ffc url(Loghi/pointer.gif) no-repeat -10px 5px;
+
+}
+
+
+.tr_mouse{
+	
+}
+
+.tr_mouse:HOVER{
+	cursor: pointer;
+}
+.glyphicon{
+	
+	margin-right: 5px;
+	
+}

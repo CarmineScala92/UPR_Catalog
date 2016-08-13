@@ -1,0 +1,10 @@
+it.unisa.upr.SupportoValidazione
+it.unisa.upr.commons
+it.unisa.upr.data.gestioneAutenticazione
+it.unisa.upr.data.gestioneProdotti
+it.unisa.upr.data.gestioneSistema
+it.unisa.upr.gestioneAutenticazione
+it.unisa.upr.gestioneProdotti
+it.unisa.upr.gestioneSistema
+it.unisa.upr.junittest
+it.unisa.upr.storage
